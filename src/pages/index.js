@@ -4,9 +4,7 @@ import Layout from "../components/Layout";
 const home = () => {
   return (
     <Layout>
-      <div>
-        <h1>WoRo Gardens</h1>
-      </div>
+      <h1>WoRo Gardens</h1>
     </Layout>
   );
 };
