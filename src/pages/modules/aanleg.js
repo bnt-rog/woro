@@ -1,7 +1,12 @@
 import React from "react";
+import Layout from "../../components/Layout";
 
 const aanleg = () => {
-  return <div>Aanleg</div>;
+  return (
+    <Layout>
+      <h2>Aanleg</h2>
+    </Layout>
+  );
 };
 
 export default aanleg;
